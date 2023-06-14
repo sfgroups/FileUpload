@@ -1,5 +1,11 @@
 # FileUpload
 
+```
+ cat intermediate.crt root.crt > ssl_chain.crt
+
+```
+https://discuss.hashicorp.com/t/trouble-getting-consul-connect-and-envoy-to-work/6415/28
+
 Commands for refference
 
 ```
