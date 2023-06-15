@@ -21,3 +21,5 @@ javac SSLJavaClient.java
 java SSLJavaClient
 
 ```
+
+https://stackoverflow.com/questions/38539924/consul-check-https-self-signed
