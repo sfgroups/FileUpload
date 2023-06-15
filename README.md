@@ -42,3 +42,6 @@ java SSLJavaClient
 ```
 
 https://stackoverflow.com/questions/38539924/consul-check-https-self-signed
+
+
+If you encounter any issues, please do not hesitate to reach out to us for assistance. You can contact us via the provided email address or through the designated Microsoft Teams channel at https://team.microsfot.com.
