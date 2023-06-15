@@ -1,6 +1,25 @@
 # FileUpload
 
 ```
+<style>
+  .empty-line {
+    padding-bottom: 1em; /* Add padding at the bottom of the div */
+  }
+</style>
+
+<div>
+  This is the first line.
+</div>
+
+<div class="empty-line"></div>
+
+<div>
+  This is the second line.
+</div>
+
+```
+
+```
  cat intermediate.crt root.crt > ssl_chain.crt
 
 ```
