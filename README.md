@@ -1,5 +1,17 @@
 # FileUpload
+```
+# .gitlab-ci.yml
 
+variables:
+  PACKAGE_NAME: "my-package-${CI_COMMIT_TAG}"
+
+build_package:
+  stage: build
+  script:
+    - echo "Building package: $PACKAGE_NAME"
+    # Build and package your code using the $PACKAGE_NAME
+
+```
 ```
 <style>
   .empty-line {
