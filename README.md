@@ -1,3 +1,17 @@
+SSL Handshare issue
+
+```
+System.setProperty("jsse.enableSNIExtension", "false");
+java -Djsse.enableSNIExtension=false
+
+Security.setProperty("crypto.policy", "unlimited");
+```
+
+https://docs.oracle.com/javase/8/docs/technotes/guides/security/jsse/JSSERefGuide.html#SNIExtension
+
+https://howtodoinjava.com/java/java-security/tls12-sslhandshakeexception/
+
+
 ```
 # .gitlab-ci.yml
 
